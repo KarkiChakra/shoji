@@ -4,3 +4,21 @@ ok bro
 lets start
 pelll doo vai
 chalo pelll dete hai
+
+package ipac.zoo.animal;
+
+public class RedPanda implements Animal {
+    private String name;
+    public RedPanda(String name) {
+        this.name=name;
+    }
+        
+    public String getName() {
+        return name;
+    }
+
+    public void eat() {
+        System.out.println("レッサーパンダの" + name + "は果物と竹を食べます。");
+}
+
+}
