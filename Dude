@@ -22,3 +22,15 @@ public class RedPanda implements Animal {
 }
 
 }
+package ipac.zoo.animal;
+
+public interface Animal {
+    String getName();   
+    void eat();         
+    default void sleep() {
+        System.out.println("横たわってすやすやねむります。");
+
+    } 
+}
+
+
